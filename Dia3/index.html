@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web formulario</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <section class="registro-formulario">
+        <form action="" method="post" enctype="multipart/form-data"></form>
+        <h2>Formulario de registro - Mi web</h2>
+        <br>
+        <label for="nombre">Nombre:</label>
+
+        <input class="controles" type="text" name="nombre" id="nombre" maxlength="50" placeholder="ingresa tu nombre">
+        <br>
+        <label for="apellidos">apellidos:</label>
+        
+        <input class="controles" type="text" name="apellidos" id="apellidos" maxlength="50" placeholder="ingresa tus apellidos">
+        <br>
+        <form>
+            <label for="sexo">sexo:</label>
+            <br>
+            <label for="masculino">masculino:</label>
+            <input type="radio" id="opcion1" name="sexo" value="opcion1">
+            <br>
+            <label for="femenino">femenino:</label>
+            <input type="radio" id="opcion2" name="sexo" value="opcion2">
+        </form>
+        <label for="correo">correo:</label>
+        <input class="controles" type="text" name="correo" id="correo" placeholder="ingresa tu correo electronico">
+        <br>
+        <br>
+        <input type="checkbox" id="miCheckbox" name="opcion" checked>
+        <label for="miCheckbox">Deseo recibir información sobre novedades y ofertas</label>
+        <br>
+        <br>
+        <input type="checkbox" id="miCheckbox" name="opcion" value="siono">
+        <label for="miCheckbox">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+        <br>
+        <br>
+        <input type="submit" value="enviar" class="boton">
+        </form>
+        <p>
+            <br>
+            <br>
+
+
+            
+        </p>
+        <label for="miLista">población:</label>
+        <select class="desplegable" id="miLista" name="miLista">
+        <option value="opcion1">Bucaramanga</option>
+        <option value="opcion2">Giron</option>
+        <option value="opcion3">Floridablanca</option>
+        <option value="opcion3">Piedecuesta</option>
+        <br>
+        <textarea name="comentario" rows="4" cols="50">
+            Descripción:
+        </textarea>
+    </select>
+    </section>
+
+
+
+</body>
+</html>
