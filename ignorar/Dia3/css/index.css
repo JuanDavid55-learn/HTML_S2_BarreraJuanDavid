@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 8px;
+}
+
+.registro-formulario{
+    width: 400px;
+    background: #1e3852;
+    padding: 30;
+    margin: auto;
+    margin-top: 100;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: whitesmoke;
+    box-shadow: 7px 13px 37px #000;
+}
+.controles{
+    background: #24303a;
+    padding: 3px;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    border: 2px solid #589;
+    font-family: "calibri";
+    color:floralwhite
+}
+.registro-formulario .boton {
+    background: #6b5988;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.registro-formulario .desplegable{
+    background: #589;
+    padding: 1px;
+    margin: 5px;
+    border-radius: 2px;
+    border-color: black;
+}
+body{
+    background-color: #3d0dc4;
+}
