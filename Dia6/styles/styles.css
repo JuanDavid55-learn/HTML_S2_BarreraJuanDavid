@@ -1,0 +1,23 @@
+div{
+    background-color: red;
+}
+div h1{
+    color: blue;
+}
+div h1#tarde{
+    color: gray;
+}
+button{
+    background-color: aquamarine;
+}
+button[disabled]{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input[type="password"]{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: burlywood;
+}
+input[placeholder="pepito perez"]{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #976597;
+}
