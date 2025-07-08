@@ -52,3 +52,24 @@ a:hover{
         background-color: blue;
     }
 }
+.matachito{
+    margin: 0;
+    image-rendering: pixelated;
+    position: relative;
+    width: 60px;
+    height: 100px;
+    background-image: url('../img/attachment-1.png');
+    background-size:cover;
+    bottom: 30px;
+    animation: movimiento .80s steps(3) infinite;
+}
+
+@keyframes movimiento{
+    from{
+background-position: 0px;
+    }
+    to{
+        background-position: -2000px;
+    }
+}
+  

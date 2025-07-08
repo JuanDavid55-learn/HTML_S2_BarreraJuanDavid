@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+.cielo{
+    background-image: url(../img/monkey-sky.png);
+}
+.mar{
+    background-image: url(../img/monkey-sea.png);
+}
+.caja{
+    background-image: url(../img/bernie.png);
+}
